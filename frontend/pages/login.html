@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AttendX | Login</title><link rel="stylesheet" href="../css/main.css">
+<style>
+.login{max-width:430px;margin:8vh auto}.roles{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:18px 0}.role-btn{padding:11px;border:1px solid #cbd5e1;background:#fff;border-radius:8px;cursor:pointer}.role-btn.active{background:#4338ca;color:#fff;border-color:#4338ca}.hint{color:#64748b;font-size:12px;margin-top:12px}.hidden{display:none}
+</style></head>
+<body>
+<form class="login" id="lf">
+<h1>Attend<span style="color:#4338ca">X</span></h1><small>Portable QR Attendance</small>
+<h3 style="margin-top:24px">Select Role</h3>
+<div class="roles">
+<button type="button" class="role-btn" data-role="student">Student</button>
+<button type="button" class="role-btn" data-role="faculty">Faculty</button>
+<button type="button" class="role-btn" data-role="principal">Principal</button>
+</div>
+<label id="idLabel">ID</label>
+<input id="uid" placeholder="Select a role first" required autocomplete="username" disabled>
+<label>Password</label>
+<input id="pw" type="password" placeholder="Password" required autocomplete="current-password" disabled>
+<button class="btn" id="loginBtn" style="width:100%;margin-top:8px" disabled>Login</button>
+<p id="err" style="color:#dc2626"></p>
+<p class="hint">Login using your registered credentials.</p>
+</form>
+<script src="../js/login.js"></script></body></html>

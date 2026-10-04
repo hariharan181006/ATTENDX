@@ -1,0 +1,3 @@
+initPage('about',(u,m)=>{m.innerHTML=`<div class="panel"><h2>AttendX – Portable QR Attendance</h2><p>QR-based attendance with location-based verification, attendance automation and role-based access.</p>
+<h3>Key Features</h3><ul><li>QR-based Attendance</li><li>Real-time Attendance Recording</li><li>Leave Request Management</li><li>OD Request Management</li><li>Attendance Reports</li><li>Role-based Access</li></ul>
+<h3>Roles</h3><p>Student · Faculty · Principal</p><h3>Attendance Rules</h3><p>Faculty selects the QR start time and end time.<br>Scan during that window: Present.<br>After end time: QR expires and unscanned students remain Absent.</p></div>`});
