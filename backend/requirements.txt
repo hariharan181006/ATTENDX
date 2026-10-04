@@ -1,0 +1,8 @@
+Flask>=3.0
+Flask-SQLAlchemy>=3.1
+Flask-CORS>=4.0
+python-dotenv>=1.0
+PyMySQL>=1.1
+cryptography>=42
+gunicorn>=23.0
+psycopg2-binary>=2.9
